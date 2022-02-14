@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.sec-1,
+.sec-1 .sec-1-inner .logo,
+.sec-2,
+.sec-2 div div,
+.sec-3,
+.sec-4 .sec-4-inner { 
+    display: flex;
+    justify-content: center;
+}
+
+.sec-1 .sec-1-inner,
+.sec-4 .sec-inner {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100vw;
+}
+
+.sec-1 .sec-1-inner div:first-child {
+    width: 40rem;
+}
+
+.sec-1 .sec-1-inner h1 { 
+    text-align: center;
+}
+
+.sec-1 .sec-1-inner .logo,
+.sec-1 .sec-1-inner h1 {
+    margin-block: 2rem;
+}
+
+.sec-1 .sec-1-inner ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none; 
+}
+
+.sec-1 .sec-1-inner ul li {
+    margin: 1rem 1.5rem;
+}
+
+.sec-1 .sec-1-inner div:last-child {
+    display: flex;
+    flex-wrap: wrap;
+    width: 25rem;
+}
+
+.sec-1 .sec-1-inner div:last-child img,
+.sec-2 div img,
+.sec-4 .sec-inner div img {
+    border-radius: .5rem;
+    margin: .5rem;
+    width: 10rem;
+}
+
+.sec-2,
+.sec-3 {
+    align-items: center;
+    height: 100vh;
+}
+
+.sec-2 div h1,
+.sec-2 div h2,
+.sec-2 div p {
+    margin-block: 2rem;
+}
+
+.sec-2 div p,
+.sec-2 div h2 {
+    text-align: center;
+}
+ 
+.sec-3 div {
+    padding-inline: 3rem;
+}
+ 
+.sec-3 div h2, 
+.sec-4 .sec-inner div h2 {
+    margin-block: 3rem;
+}
+
+.sec-4 .sec-inner div { 
+    width: 40rem;
+}
+
+.sec-4 .sec-4-inner h2 {
+    text-align: center;
+}
