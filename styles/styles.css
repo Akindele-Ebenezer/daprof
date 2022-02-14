@@ -92,5 +92,9 @@
 }
 
 .sec-4 .sec-4-inner h2 {
-    text-align: center;
+    text-align: center; 
+}
+
+.sec-4 .sec-inner p { 
+    padding-inline: 3rem;
 }
