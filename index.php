@@ -2,113 +2,96 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anybody:wght@300&display=swap" rel="stylesheet">
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Daprof Globals</title>
 </head>
 <body>
-    
-    <section class="sec-1">
-        <div class="sec-1-inner"> 
+<!-- https://www.themetechmount.com/wordpress/boldman/elementor/# -->
+
+    <header>
+        <div class="header-contact">
             <div>
-                <div class="logo">
-                    LOGO
-                </div>
-                <h1>Daprof Global Resources</h1>
+                <img src="images/call.png"> <strong>Client Services:</strong> (+234) 808 197 3388
+            </div>
+            <div>
+                <img src="images/email.png"> <strong>Email:</strong> daprofglobalresources@gmail.com | <img src=""><img src=""><img src=""><img src="">
+            </div>
+        </div>
+        <nav>
+            <div>
+                DAPROF LOGO
+            </div>
+            <div>
                 <ul>
-                    <li>Blasting</li>
-                    <li>Painting</li>
-                    <li>Hydrotest</li>
-                    <li>Tank Cleaning</li>
-                    <li>Floor Breaking</li>
-                    <li>Screeding</li>
-                    <li>Pop Design</li>
-                    <li>Industrial Painting</li>
-                    <li>General Supplier</li>
+                    <li>HOME</li>
+                    <li>SERVICES</li>
+                    <li>PROJECTS</li>
+                    <li>CONTACT US</li> 
                 </ul>
-            </div> 
-            <div>
-                <img src="images/img.jpeg" alt="">
-                <img src="images/img.jpeg" alt="">
-                <img src="images/img.jpeg" alt="">
-                <img src="images/img.jpeg" alt="">
-        </div>
-    </section>
-
-    <section class="sec-2">
-        <div>
-            <h1>Think Better Corrosion Services</h1>
-            <p>Think</p>
-            <div>                
-                <img src="images/img.jpeg" alt="">
-            </div>
-            <h2>Daprof Global Resources</h2>
-        </div>
-    </section>
-
-    <section class="sec-3">
-        <div>
-            <h2>A One-Stop Headquarter for Anti Rust Solutions</h2>
-            <p>
-            A One-Stop Headquarter for Anti Rust Solutions
-            We all at Daprof Global Resources welcome you to our world of Professional corrosion services.
-            <br>
-            We sincerely appreciate your interest in us and we look forward to not only meeting your corrosion services
-            <br>
-            needs but also delivering world class solutions.
-            <br><br>
-            The importance of efficient and effective corrosions control delivery cant be ruled out. <br>
-            For us to get hired, win more clients and partnerships. Building a stronger professional reputation, Daprof
-            Global Resources are equipped with most effective antirust gadgets obtainable globally. <br><br>
-            With Daprof Global Resources, a lasting Professional corrosions control is assured.
-            <br>
-            Warmest Regards
-            <br>
-            <br>
-            Olorunda Oludare E.
-            <br>
-            Managing Director
-            <br>
-            daprofglobalresources@gmail.com
-            </p>
-        </div>
-    </section>
-
-    <section class="sec-4">
-        <div class="sec-inner">
-            <div>
-                <div class="sec-4-inner">
-                    <div>
-                        <div class="sec-4-inner">
-                            <img src="images/img.jpeg" alt=""> 
-                        </div>
-                        <h2>MISSION</h2>
-                    </div>
-                </div>
-                    <p><q>To continuously challenge ourselves to
-                    provide effective and affordable corrosion
-                    control service to our valued clients.
-                    “ To be Earth’s most customer - centric
-                    company, where customer can find and
-                    discover anything they might want in Anti
-                    rust services, and endeavors to offer its customer
-                    the lowest possible prices</q></p>
-                </img>
             </div>
             <div>
-                <div class="sec-4-inner">
-                    <div>
-                        <div class="sec-4-inner">
-                            <img src="images/img.jpeg" alt="">
-                        </div>
-                        <h2>VISION</h2>
-                    </div>
-                </div>
-                    <p>To continuously challenge ourselves to
-                    provide effective and affordable corrosion
-                    control service to our valued clients</p>
-                </img>
+                <img src="images/call.png"> <span>CALL US</span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="nav-sm-screen">
+        <div>
+            <img src="images/nav-icon.png">
+        </div>
+        <div>
+            DAPROF LOGO
+        </div>
+    </div>
+
+    <section class="sec-1-wrapper" style="background-image: url(images/bg.jpg)">
+        <div class="sec-1-inner">
+            <div>
+                <h3>WELCOME</h3>
+                <h1><span>DAPROF</span> GLOBAL <span>RESOURCES</span></h1>
+                <ul>
+                    <li>
+                        <span></span>
+                        Blasting</li>
+                    <li>
+                        <span></span>
+                        Painting</li>
+                    <li>
+                        <span></span>
+                        Hydrotest</li>
+                    <li>
+                        <span></span>
+                        Tank Cleaning
+                    </li>
+                    <li>
+                        <span></span>
+                        Floor Breaking
+                    </li>
+                    <li>
+                        <span></span>
+                        Screeding</li>
+                    <li>
+                        <span></span>
+                        Pop Design
+                    </li>
+                    <li>
+                        <span></span>
+                        Industrial Painting
+                    </li>
+                    <li>
+                        <span></span>
+                        General Supplier
+                    </li>
+                </ul>
+                <br><br>
+                <button>VIEW MORE DETAILS</button>
+                <button>CONTACT US</button>
             </div>
         </div>
     </section>
