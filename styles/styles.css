@@ -10,6 +10,7 @@ header,
 .nav-sm-screen {
     position: fixed;
     width: 100%;
+    z-index: 10;
 }
 
 header div img {
@@ -72,6 +73,10 @@ nav {
 
 .nav-sm-screen div img {
     width: 3rem;
+}
+
+section:not(section:first-of-type) {
+    padding: 1rem;
 }
 
 section.sec-1-wrapper { 
@@ -147,6 +152,101 @@ section.sec-1-wrapper .sec-1-inner ul li span {
     width: .7rem;
 }
 
+.sec-2-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.sec-2-wrapper div {
+    padding-block: 2rem;
+    width: 40rem; 
+}
+
+.sec-2-wrapper div h2,
+section.sec-3-wrapper div h3 big { 
+    color: #2a373e; 
+    font-family: arial;
+}
+
+.sec-2-wrapper div img,
+section.sec-3-wrapper div .about-services div img {
+    width: 4rem;
+}
+
+.sec-2-wrapper div p,.sec-3-wrapper div p {
+    font-size: .9rem;
+    margin-block: 2rem;
+}
+
+.sec-2-wrapper div small,
+section.sec-3-wrapper div small { 
+    color: #2a373e; 
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+
+section.sec-3-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    line-height: 1.5rem;
+    margin-block: 4rem;
+}
+
+section.sec-3-wrapper div {
+    width: 40rem;
+}
+
+section.sec-3-wrapper div .about-services {
+    display: flex;
+}
+
+section.sec-3-wrapper div .about-services,
+section.sec-3-wrapper div .about-services div {
+    width: unset;
+}
+
+section.sec-3-wrapper div .about-services div {
+    display: flex; 
+    margin-block: 1rem;
+    width: 10rem;
+}
+
+section.sec-3-wrapper div .about-services div span {
+    font-size: small;
+    margin-left: 1rem;
+}
+
+section.sec-3-wrapper div h3 big {
+    font-size: 2rem; 
+}
+
+section.sec-3-wrapper div:first-child {
+    width: 23rem;
+}
+ 
+section.sec-3-wrapper div h3 { 
+    border-left: 6px solid #ffa500; 
+    padding-inline: 1rem;
+}
+
+section.sec-3-wrapper div img:not(section.sec-3-wrapper div .about-services div img) {
+    box-shadow: 1px 2px 19px #ddd;
+    width: 20rem;
+}
+
+section.sec-3-wrapper div img:last-child { 
+    border: 15px solid #fff;
+    transform: translate(3rem, -9rem);
+}
+
+section.sec-3-wrapper div small {
+    color: #ffa500;
+}
+
 ul {
     list-style: none;
 }
@@ -161,6 +261,12 @@ ul {
     header {
         display: none;
     } 
+}
+
+@media (max-width: 530px) {
+    section.sec-3-wrapper div .about-services { 
+        flex-direction: column;
+      }
 }
 
 @media (max-width: 414px) {
