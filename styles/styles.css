@@ -153,6 +153,7 @@ section.sec-1-wrapper .sec-1-inner ul li span {
 }
 
 .sec-2-wrapper {
+    background: #faffff;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -162,11 +163,12 @@ section.sec-1-wrapper .sec-1-inner ul li span {
 
 .sec-2-wrapper div {
     padding-block: 2rem;
-    width: 40rem; 
+    width: 30rem; 
 }
 
 .sec-2-wrapper div h2,
-section.sec-3-wrapper div h3 big { 
+section.sec-3-wrapper div h3 big,
+section.sec-3-wrapper div .about-services div span { 
     color: #2a373e; 
     font-family: arial;
 }
@@ -201,7 +203,10 @@ section.sec-3-wrapper div {
 }
 
 section.sec-3-wrapper div .about-services {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
     display: flex;
+    padding-block: 1rem;    
 }
 
 section.sec-3-wrapper div .about-services,
@@ -212,11 +217,11 @@ section.sec-3-wrapper div .about-services div {
 section.sec-3-wrapper div .about-services div {
     display: flex; 
     margin-block: 1rem;
-    width: 10rem;
+    width: 11rem;
 }
 
-section.sec-3-wrapper div .about-services div span {
-    font-size: small;
+section.sec-3-wrapper div .about-services div span { 
+    font-weight: bold;
     margin-left: 1rem;
 }
 
@@ -265,8 +270,15 @@ ul {
 
 @media (max-width: 530px) {
     section.sec-3-wrapper div .about-services { 
+        border-bottom: unset;
         flex-direction: column;
       }
+
+    section.sec-3-wrapper div .about-services div {
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 1rem;        
+        width: 100%;
+    }
 }
 
 @media (max-width: 414px) {
