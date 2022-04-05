@@ -77,6 +77,7 @@ nav {
 
 section:not(section:first-of-type) {
     padding: 1rem;
+    line-height: 2rem;
 }
 
 section.sec-1-wrapper { 
@@ -153,11 +154,10 @@ section.sec-1-wrapper .sec-1-inner ul li span {
 }
 
 .sec-2-wrapper {
-    background: #faffff;
+    background: #f9f9f9;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    line-height: 1.5rem;
+    justify-content: space-evenly; 
     text-align: center;
 }
 
@@ -168,7 +168,9 @@ section.sec-1-wrapper .sec-1-inner ul li span {
 
 .sec-2-wrapper div h2,
 section.sec-3-wrapper div h3 big,
-section.sec-3-wrapper div .about-services div span { 
+section.sec-3-wrapper div .about-services div span,
+section.sec-4-wrapper .sec-4-inner div:first-child span:last-child,
+section.sec-4-wrapper .sec-4-inner div h1 { 
     color: #2a373e; 
     font-family: arial;
 }
@@ -193,8 +195,7 @@ section.sec-3-wrapper div small {
 section.sec-3-wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    line-height: 1.5rem;
+    justify-content: space-evenly; 
     margin-block: 4rem;
 }
 
@@ -240,6 +241,7 @@ section.sec-3-wrapper div h3 {
 
 section.sec-3-wrapper div img:not(section.sec-3-wrapper div .about-services div img) {
     box-shadow: 1px 2px 19px #ddd;
+    height: 20rem;
     width: 20rem;
 }
 
@@ -251,6 +253,49 @@ section.sec-3-wrapper div img:last-child {
 section.sec-3-wrapper div small {
     color: #ffa500;
 }
+
+section.sec-4-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+section.sec-4-wrapper .sec-4-inner {
+    background: #f7f7f7;
+    padding: 2rem;
+    width: 50rem;
+} 
+
+section.sec-4-wrapper .sec-4-inner div:first-child {
+    border-left: 6px solid;
+    padding-inline: 2rem;
+    margin-block: 2rem;
+} 
+ 
+section.sec-4-wrapper .sec-4-inner div:first-child span:first-child { 
+    font-size: small;
+} 
+ 
+section.sec-4-wrapper .sec-4-inner div:first-child span:last-child {
+    font-size: 2rem;
+    font-weight: bold;
+} 
+ 
+section.sec-4-wrapper .sec-4-inner div:not(section.sec-4-wrapper .sec-4-inner div img + div, section.sec-4-wrapper .sec-4-inner div:first-child) {
+   display: flex;
+   font-size: .9rem;
+} 
+
+section.sec-4-wrapper .sec-4-inner div:nth-child(2) { 
+    padding-bottom: 2rem; 
+} 
+ 
+section.sec-4-wrapper .sec-4-inner div img {
+    align-self: center;
+    height: 3rem;
+    margin-right: 2rem;
+    width: 3rem;
+} 
 
 ul {
     list-style: none;
@@ -288,6 +333,12 @@ ul {
 
     section.sec-1-wrapper .sec-1-inner div h1 {
         font-size: 3rem;
+    }
+}
+
+@media (max-width: 394px) {
+    section.sec-3-wrapper div img:not(section.sec-3-wrapper div .about-services div img) {
+        width: 80vw;
     }
 }
 

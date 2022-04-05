@@ -179,5 +179,30 @@
         </div> 
     </section>
 
+    <section class="sec-4-wrapper">
+        <div class="sec-4-inner">
+            <div>
+                <span>WORKING WITH EXCELLENT</span>
+                <br><br>
+                <span>Our Core Values</span>
+            </div>
+            <div>
+                 Each member of Daprof Global Resources . team will contribute their individual time and Talent in a coordinated effort to ensure the company  consistently meet its strategic goals.
+            </div>
+            <div>
+                <img src="images/innovative.png"> <div><h1>INNOVATIVE</h1> <br> <span>In every facets of our operations, our actions shall remain consistent. We will gain trust by honouring our commitments exemplifying honesty to our clients, our employees and our community.</span></div>
+            </div>
+            <div>
+                <img src="images/integrity.png"> <div><h1>INTEGRITY</h1> <br> <span>The services, systems and technology that we deliver to our clients will represent the leading edge in the industry. Daprof Global Resources will partner with companies that are forward looking and that provide us 
+                with the highest quality solutions available.</span> </div>
+            </div>
+            <div>
+                <img src="images/accountability.png"> <div><h1>ACCOUNTABILITY</h1> <br> <span>Each member of our team agrees to be accountable for ownership of their actions or 
+                inactions in relations to other member of the team, our various partners and especially our valued clients.</span> </div>
+            </div>
+        </div>
+        <div class="sec-4-inner" style="background-image: url(images/core-values.jpeg)"></div>
+    </section>
+
 </body>
 </html>
